@@ -1,0 +1,87 @@
+.container.text-center {
+  margin: 100px auto;
+  border: solid 1px black;
+  border-radius: 5px;
+  max-width: 600px;
+}
+form {
+  display: inline;
+}
+input {
+  border-radius: 3px;
+  border: solid 1px darkgray;
+  text-align: left;
+  width: 230px;
+  height: 35px;
+  margin: 50px 0px 20px 0px;
+}
+button {
+  margin: auto 10px;
+  height: 35px;
+  background-color: #0d6efd;
+  border: 1px solid #0d6efd;
+  border-radius: 7px;
+  color: white;
+  box-shadow: 3px 3px 3px rgb(201, 195, 195);
+}
+#currentL {
+  display: inline;
+  background-color: #0de1fd;
+  border: 1px solid #0de1fd;
+}
+#currentL:hover {
+  background-color: white;
+  color: #0de1fd;
+}
+button:hover {
+  cursor: pointer;
+  height: 35px;
+  background-color: white;
+  border: 1px solid #0d6efd;
+  border-radius: 10px;
+  color: #0d6efd;
+  transition: all 200ms ease-in-out;
+}
+p {
+  text-align: left;
+  font-size: 12px;
+  margin: 0 20px;
+}
+#humidity {
+  margin: auto 40px;
+}
+#currentTemperatureAll {
+  margin: 30px auto 30px 50px;
+  text-align: left;
+}
+#temp1 {
+  font-size: 30px;
+  font-weight: 400;
+}
+#c_and_f {
+  position: relative;
+  top: -20px;
+  font-size: 12px;
+}
+.col-3.day_time {
+  text-align: left;
+  margin: 20px 0px;
+  font-size: 12px;
+}
+#city {
+  font-size: 22px;
+}
+.row.forecast {
+  margin: 50px auto 20px auto;
+}
+li {
+  list-style-type: none;
+}
+#hum,
+#windS {
+  margin: 0 5px;
+}
+#c {
+  font-size: 25px;
+  font-weight: 400;
+}
