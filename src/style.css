@@ -85,3 +85,7 @@ li {
   font-size: 25px;
   font-weight: 400;
 }
+#created {
+  text-align: center;
+  font-size: 12px;
+}
